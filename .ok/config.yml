@@ -59,3 +59,4 @@ contentRules:
     enabled: false
 content:
   attachmentFolderPath: ./附件
+autoSync: {}
