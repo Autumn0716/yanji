@@ -1,6 +1,13 @@
 
 
-在英语的学习过程中,我使用了[DeepTutor](https://github.com/HKUDS/DeepTutor)作为我的翻译助手,而且在其他领域也是一个很好的助手.以下是一些使用示例:![[Screenshot 2026-07-30 at 12-15-20.png]]![[Screenshot 2026-07-30 at 12-15-28.png]]![[Screenshot 2026-07-30 at 12-15-37.png]]
+在英语的学习过程中,我使用了[DeepTutor](https://github.com/HKUDS/DeepTutor)作为我的翻译助手,而且在其他领域也是一个很好的助手.以下是一些使用示例:
+
+![DeepTutor 对 prolong 的翻译与多义解析](./附件/Screenshot%202026-07-30%20at%2012-15-20.png)
+
+![DeepTutor 展示 prolong 的词形变化与近义词](./附件/Screenshot%202026-07-30%20at%2012-15-28.png)
+
+![DeepTutor 对比 prolong 和 extend 并给出用法示例](./附件/Screenshot%202026-07-30%20at%2012-15-37.png)
+
 其余过多就不再进行展开了,这里是我的一小段提示词:
 ```md
 # Soul
