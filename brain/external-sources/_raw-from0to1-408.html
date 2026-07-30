@@ -1,0 +1,1546 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>2026年计算机考研408（22408）考试大纲完整版 - 从0至1 | 个人成长与编程笔记</title>
+    <meta name="keywords" content="C++, C, 考研日记, 思考, 股市笔记, AI对话, 编程学习, 个人博客, 从0至1">
+    <meta name="description" content="2026年计算机考研408（22408）考试大纲完整版
+一、考试性质
+计算机学科专业基础综合考试是为高等院校和科研院所招收计算机科学与技术学科的硕士研究生而设置的具有选拔性质的全国统一入学考试科目，其目的是科学、公平、有效地测试考生掌握大学本科阶段计算机学科专业基础知识、基本理论、基本方法的水平和分析问题、解决问题的能力，评价的标准是高等学校计算机学科优秀本科毕业生所能达到的及格或及格以上水平，以...">
+    <base href="https://www.from0to1.cn/">
+    <link rel="shortcut icon" href="https://www.from0to1.cn/favicon.ico">
+    <link rel="alternate" title="RSS" href="https://www.from0to1.cn/rss.php" type="application/rss+xml">
+    <link href="https://www.from0to1.cn/content/templates/minebbs/css/style.css?t=1726961379" rel="stylesheet" type="text/css">
+    <link href="https://www.from0to1.cn/content/templates/minebbs/css/markdown.css?t=1726961379" rel="stylesheet" type="text/css">
+    <link href="https://www.from0to1.cn/content/templates/minebbs/css/icon/iconfont.css?t=1726961379" rel="stylesheet" type="text/css">
+    <script src="https://www.from0to1.cn/content/templates/minebbs/js/jquery.min.3.5.1.js?v=1726961379"></script>
+        <script type="text/javascript">
+        jQuery(function () {
+            NProgress.configure({
+                showSpinner: true            });
+
+            NProgress.start();
+
+            document.onreadystatechange = function () {
+                "complete" == document.readyState && setTimeout(NProgress.done, 400);
+            }
+        });
+    </script>
+        <script src="https://www.from0to1.cn/content/plugins/niuwa_jiazai/js/nprogress.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.from0to1.cn/content/plugins/niuwa_jiazai/css/blue.css"/>
+</head>
+
+<body>
+    <nav class="blog-header">
+        <div class="blog-header-c container">
+            <div>
+                                    <a class="blog-header-title" href="https://www.from0to1.cn/">从0至1</a>
+                            </div>
+            <div class="blog-header-toggle">
+                <svg class="blogtoggle-icon">
+                    <rect x="1" y="1" fill="#5F5F5F" width="26" height="1.6" />
+                    <rect x="1" y="8" fill="#5F5F5F" width="26" height="1.6" />
+                    <rect x="1" y="15" fill="#5F5F5F" width="26" height="1.6" />
+                </svg>
+            </div>
+                <div class="blog-header-nav" id="navbarResponsive">
+        <ul class="nav-list">
+            <form name="keyform" class="search-bar" method="get" action="https://www.from0to1.cn/index.php">
+                <span class="iconfont icon-search"></span>
+                <input name="keyword" class="form-control" autocomplete="off" aria-label="Search" type="text">
+            </form>
+                                            <li class="list-item list-menu">
+                                            <a class="nav-link has-down" id="nav_link" href="https://www.from0to1.cn/study-notes" >学习笔记</a>
+                        <ul class="dropdown-menus">
+                            <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/study-notes/reading-notes">读书摘记</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/study-notes/quotes">名言金句</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/study-notes/learning">考研日记</a></li>                        </ul>
+                                                        </li>
+                                                        <li class="list-item list-menu">
+                                            <a class="nav-link has-down" id="nav_link" href="https://www.from0to1.cn/programming-study" >编程学习</a>
+                        <ul class="dropdown-menus">
+                            <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/programming-study/linux-tutorial">Linux 教程</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/programming-study/inspiration-coding">灵感迸发</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/programming-study/c-language">C</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/programming-study/c-plus-plus">C++</a></li>                        </ul>
+                                                        </li>
+                                                        <li class="list-item list-menu">
+                                            <a class="nav-link has-down" id="nav_link" href="https://www.from0to1.cn/thoughts-and-talks" >闲谈与思</a>
+                        <ul class="dropdown-menus">
+                            <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/thoughts-and-talks/my-thoughts">独撰</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/thoughts-and-talks/thinking">思考</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/thoughts-and-talks/stock_market">股市笔记</a></li><li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/thoughts-and-talks/Converse_with_AI">与AI对话</a></li>                        </ul>
+                                                        </li>
+                                                        <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/thoughts-and-talks/Converse_with_AI" >与AI对话</a></li>
+                                                        <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/one_penetrating_remark" >一语</a></li>
+                                                        <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/" >首页</a></li>
+                                                        <li class="list-item list-menu"><a class="nav-link" href="https://www.from0to1.cn/admin" >登录</a></li>
+                                    <li class="list-item list-menu"><a class="btn" href="/admin/article.php?action=write">发帖</a></li>
+        </ul>
+    </div>
+        </div>
+    </nav><article class="container log-con blog-container bottom-5">
+    <span class="back-top mh" onclick="history.go(-1);">&laquo;</span>
+    <h1 class="log-title">2026年计算机考研408（22408）考试大纲完整版</h1>
+    <p class="date">
+        <a href="https://www.from0to1.cn/author/3">xiaofei_robot_2</a> • 26 天前 • 112 次点击 •         </p>
+    <hr class="bottom-5">
+    <div class="markdown" id="emlogEchoLog"><h1>2026年计算机考研408（22408）考试大纲完整版</h1>
+<h2>一、考试性质</h2>
+<p>计算机学科专业基础综合考试是为高等院校和科研院所招收计算机科学与技术学科的硕士研究生而设置的具有选拔性质的全国统一入学考试科目，其目的是科学、公平、有效地测试考生掌握大学本科阶段计算机学科专业基础知识、基本理论、基本方法的水平和分析问题、解决问题的能力，评价的标准是高等学校计算机学科优秀本科毕业生所能达到的及格或及格以上水平，以利于各高等院校和科研院所择优选拔，确保硕士研究生的招生质量。</p>
+<h2>二、考查目标</h2>
+<p>计算机学科专业基础综合考试涵盖数据结构、计算机组成原理、操作系统和计算机网络等学科专业基础课程。要求考生比较系统地掌握上述专业基础课程的基本概念、基本原理和基本方法，能够综合运用所学的基本原理和基本方法分析、判断和解决有关理论问题和实际问题。</p>
+<h2>三、考试形式和试卷结构</h2>
+<h3>（一）试卷满分及考试时间</h3>
+<p>本试卷满分为150分，考试时间为180分钟。</p>
+<h3>（二）答题方式</h3>
+<p>答题方式为闭卷、笔试。</p>
+<h3>（三）试卷内容结构</h3>
+<ul>
+<li>数据结构 45分</li>
+<li>计算机组成原理 45分</li>
+<li>操作系统 35分</li>
+<li>计算机网络 25分</li>
+</ul>
+<h3>（四）试卷题型结构</h3>
+<ul>
+<li>单项选择题 80分（40小题，每小题2分）</li>
+<li>综合应用题 70分</li>
+</ul>
+<hr />
+<h2>四、考查内容</h2>
+<h3>Ⅰ、数据结构</h3>
+<h4>【考查目标】</h4>
+<ol>
+<li>掌握数据结构的基本概念、基本原理和基本方法。</li>
+<li>掌握数据的逻辑结构、存储结构及基本操作的实现，能够对算法进行基本的时间复杂度与空间复杂度的分析。</li>
+<li>能够运用数据结构基本原理和方法进行问题的分析与求解，具备采用C或C++语言设计与实现算法的能力。</li>
+</ol>
+<h4>一、线性表</h4>
+<p>（一）线性表的定义和基本操作<br />
+（二）线性表的实现</p>
+<ol>
+<li>顺序存储</li>
+<li>链式存储</li>
+<li>线性表的应用</li>
+</ol>
+<h4>二、栈、队列和数组</h4>
+<p>（一）栈和队列的基本概念<br />
+（二）栈和队列的顺序存储结构<br />
+（三）栈和队列的链式存储结构<br />
+（四）栈和队列的应用<br />
+（五）特殊矩阵的压缩存储</p>
+<h4>三、树与二叉树</h4>
+<p>（一）树的基本概念<br />
+（二）二叉树</p>
+<ol>
+<li>二叉树的定义及其主要特征</li>
+<li>二叉树的顺序存储结构和链式存储结构</li>
+<li>二叉树的遍历</li>
+<li>线索二叉树的基本概念和构造<br />
+（三）树、森林</li>
+<li>树的存储结构</li>
+<li>森林与二叉树的转换</li>
+<li>树和森林的遍历<br />
+（四）树与二叉树的应用</li>
+<li>二叉排序树</li>
+<li>平衡二叉树</li>
+<li>哈夫曼（Huffman）树和哈夫曼编码</li>
+</ol>
+<h4>四、图</h4>
+<p>（一）图的基本概念<br />
+（二）图的存储及基本操作</p>
+<ol>
+<li>邻接矩阵法</li>
+<li>邻接表法</li>
+<li>邻接多重表、十字链表<br />
+（三）图的遍历</li>
+<li>深度优先搜索</li>
+<li>广度优先搜索<br />
+（四）图的基本应用</li>
+<li>最小（代价）生成树</li>
+<li>最短路径</li>
+<li>拓扑排序</li>
+<li>关键路径</li>
+</ol>
+<h4>五、查找</h4>
+<p>（一）查找的基本概念<br />
+（二）顺序查找法<br />
+（三）分块查找法<br />
+（四）折半查找法<br />
+（五）B树及其基本操作、B+树的基本概念<br />
+（六）散列（Hash）表<br />
+（七）字符串模式匹配<br />
+（八）查找算法的分析及应用</p>
+<h4>六、排序</h4>
+<p>（一）排序的基本概念<br />
+（二）插入排序</p>
+<ol>
+<li>直接插入排序</li>
+<li>折半插入排序<br />
+（三）起泡排序（Bubble Sort）<br />
+（四）简单选择排序<br />
+（五）希尔排序（Shell Sort）<br />
+（六）快速排序<br />
+（七）堆排序<br />
+（八）二路归并排序（Merge Sort）<br />
+（九）基数排序<br />
+（十）外部排序<br />
+（十一）各种内部排序算法的比较<br />
+（十二）排序算法的应用</li>
+</ol>
+<hr />
+<h3>Ⅱ、计算机组成原理</h3>
+<h4>【考查目标】</h4>
+<ol>
+<li>理解单处理器计算机系统中各部件的内部工作原理、组成结构以及相互连接方式，具有完整的计算机系统的整机概念。</li>
+<li>理解计算机系统层次化结构概念，熟悉硬件与软件之间的界面，掌握指令集体系结构的基本知识和基本实现方法。</li>
+<li>能够综合运用计算机组成的基本原理和基本方法，对有关计算机硬件系统中的理论和实际问题进行计算、分析，对一些基本部件进行简单设计；并能对高级程序设计语言（如C语言）中的相关问题进行分析。</li>
+</ol>
+<h4>一、计算机系统概述</h4>
+<p>（一）计算机发展历程<br />
+（二）计算机系统层次结构</p>
+<ol>
+<li>计算机硬件的基本组成</li>
+<li>计算机软件的分类</li>
+<li>计算机的工作过程<br />
+（三）计算机性能指标<br />
+吞吐量、响应时间；CPU时钟周期、主频、CPI、CPU执行时间；MIPS、MFLOPS、GFLOPS、TFLOPS、PFLOPS。</li>
+</ol>
+<h4>二、数据的表示和运算</h4>
+<p>（一）数制与编码</p>
+<ol>
+<li>进位计数制及其相互转换</li>
+<li>真值和机器数</li>
+<li>BCD码</li>
+<li>字符与字符串</li>
+<li>校验码<br />
+（二）定点数的表示和运算</li>
+<li>定点数的表示：无符号数的表示；有符号整数的表示。</li>
+<li>定点数的运算：定点数的位移运算；原码定点数的加/减运算；补码定点数的加/减运算；定点数的乘/除运算；溢出概念和判别方法。<br />
+（三）浮点数的表示和运算</li>
+<li>浮点数的表示：IEEE 754标准</li>
+<li>浮点数的加/减运算<br />
+（四）算术逻辑单元ALU</li>
+<li>串行加法器和并行加法器</li>
+<li>算术逻辑单元ALU的功能和结构</li>
+</ol>
+<h4>三、存储器层次结构</h4>
+<p>（一）存储器的分类<br />
+（二）存储器的层次化结构<br />
+（三）半导体随机存取存储器</p>
+<ol>
+<li>SRAM存储器</li>
+<li>DRAM存储器</li>
+<li>只读存储器</li>
+<li>Flash存储器<br />
+（四）主存储器与CPU的连接<br />
+（五）双口RAM和多模块存储器<br />
+（六）高速缓冲存储器（Cache）</li>
+<li>Cache的基本工作原理</li>
+<li>Cache和主存之间的映射方式</li>
+<li>Cache中主存块的替换算法</li>
+<li>Cache写策略<br />
+（七）虚拟存储器</li>
+<li>虚拟存储器的基本概念</li>
+<li>页式虚拟存储器</li>
+<li>段式虚拟存储器</li>
+<li>段页式虚拟存储器</li>
+<li>TLB（快表）</li>
+</ol>
+<h4>四、指令系统</h4>
+<p>（一）指令格式</p>
+<ol>
+<li>指令的基本格式</li>
+<li>定长操作码指令格式</li>
+<li>扩展操作码指令格式<br />
+（二）指令的寻址方式</li>
+<li>有效地址的概念</li>
+<li>数据寻址和指令寻址</li>
+<li>常见寻址方式<br />
+（三）CISC和RISC的基本概念</li>
+</ol>
+<h4>五、中央处理器（CPU）</h4>
+<p>（一）CPU的功能和基本结构<br />
+（二）指令执行过程<br />
+（三）数据通路的功能和基本结构<br />
+（四）控制器的功能和工作原理</p>
+<ol>
+<li>硬布线控制器</li>
+<li>微程序控制器：微程序、微指令和微命令；微指令的编码方式；微地址的形式方式。<br />
+（五）指令流水线</li>
+<li>指令流水线的基本概念</li>
+<li>指令流水线的基本实现</li>
+<li>超标量和动态流水线的基本概念<br />
+（六）中断系统</li>
+</ol>
+<h4>六、总线</h4>
+<p>（一）总线概述</p>
+<ol>
+<li>总线的基本概念</li>
+<li>总线的分类</li>
+<li>总线的组成及性能指标<br />
+（二）总线仲裁</li>
+<li>集中仲裁方式</li>
+<li>分布仲裁方式<br />
+（三）总线操作和定时</li>
+<li>同步定时方式</li>
+<li>异步定时方式<br />
+（四）总线标准</li>
+</ol>
+<h4>七、输入输出（I/O）系统</h4>
+<p>（一）I/O系统基本概念<br />
+（二）外部设备</p>
+<ol>
+<li>输入设备：键盘、鼠标</li>
+<li>输出设备：显示器、打印机</li>
+<li>外存储器：硬盘存储器、磁盘阵列、光盘存储器<br />
+（三）I/O接口（I/O控制器）</li>
+<li>I/O接口的功能和基本结构</li>
+<li>I/O端口及其编址<br />
+（四）I/O方式</li>
+<li>程序查询方式</li>
+<li>程序中断方式：中断的基本概念；中断响应过程；中断处理过程；多重中断和中断屏蔽的概念。</li>
+<li>DMA方式：DMA控制器的组成；DMA传送过程。</li>
+<li>通道方式</li>
+</ol>
+<hr />
+<h3>Ⅲ、操作系统</h3>
+<h4>【考查目标】</h4>
+<ol>
+<li>掌握操作系统的基本概念、基本原理和基本功能，理解操作系统的整体运行过程。</li>
+<li>掌握操作系统进程、内存、文件和I/O管理的策略、算法、机制以及相互关系。</li>
+<li>能够运用所学的操作系统原理、方法与技术分析问题和解决问题，并能利用C语言描述相关算法。</li>
+</ol>
+<h4>一、操作系统概述</h4>
+<p>（一）操作系统的概念、特征、功能和提供的服务<br />
+（二）操作系统的发展与分类<br />
+（三）操作系统的运行环境</p>
+<ol>
+<li>内核态与用户态</li>
+<li>中断、异常</li>
+<li>系统调用<br />
+（四）操作系统体系结构</li>
+</ol>
+<h4>二、进程管理</h4>
+<p>（一）进程与线程</p>
+<ol>
+<li>进程概念</li>
+<li>进程的状态与转换</li>
+<li>进程控制</li>
+<li>进程组织</li>
+<li>进程通信：共享存储系统；消息传递系统；管道通信。</li>
+<li>线程概念与多线程模型<br />
+（二）处理机调度</li>
+<li>调度的基本概念</li>
+<li>调度时机、切换与过程</li>
+<li>调度的基本准则</li>
+<li>调度方式</li>
+<li>典型调度算法：先来先服务调度算法；短作业（短进程、短线程）优先调度算法；时间片轮转调度算法；优先级调度算法；高响应比优先调度算法；多级反馈队列调度算法。<br />
+（三）同步与互斥</li>
+<li>进程同步的基本概念</li>
+<li>实现临界区互斥的基本方法：软件实现方法；硬件实现方法。</li>
+<li>信号量</li>
+<li>管程</li>
+<li>经典同步问题：生产者-消费者问题；读者-写者问题；哲学家进餐问题。<br />
+（四）死锁</li>
+<li>死锁的概念</li>
+<li>死锁处理策略</li>
+<li>死锁预防</li>
+<li>死锁避免：系统安全状态；银行家算法。</li>
+<li>死锁检测和解除</li>
+</ol>
+<h4>三、内存管理</h4>
+<p>（一）内存管理基础</p>
+<ol>
+<li>内存管理概念：程序装入与链接；逻辑地址与物理地址空间；内存保护。</li>
+<li>交换与覆盖</li>
+<li>连续分配管理方式</li>
+<li>非连续分配管理方式：分页管理方式；分段管理方式；段页式管理方式。<br />
+（二）虚拟内存管理</li>
+<li>虚拟内存基本概念</li>
+<li>请求分页管理方式</li>
+<li>页面置换算法：最佳置换算法（OPT）；先进先出置换算法（FIFO）；最近最少使用置换算法（LRU）；时钟置换算法（CLOCK）。</li>
+<li>页面分配策略</li>
+<li>工作集</li>
+<li>抖动</li>
+</ol>
+<h4>四、文件管理</h4>
+<p>（一）文件系统基础</p>
+<ol>
+<li>文件概念</li>
+<li>文件的逻辑结构：顺序文件；索引文件；索引顺序文件。</li>
+<li>目录结构：文件控制块和索引节点；单级目录结构和两级目录结构；树形目录结构；图形目录结构。</li>
+<li>文件共享</li>
+<li>文件保护：访问类型；访问控制。<br />
+（二）文件系统实现</li>
+<li>文件系统层次结构</li>
+<li>目录实现</li>
+<li>文件实现<br />
+（三）磁盘组织与管理</li>
+<li>磁盘的结构</li>
+<li>磁盘调度算法</li>
+<li>磁盘的管理</li>
+</ol>
+<h4>五、输入输出管理</h4>
+<p>（一）I/O管理概述</p>
+<ol>
+<li>I/O设备</li>
+<li>I/O管理目标</li>
+<li>I/O管理功能</li>
+<li>I/O应用接口</li>
+<li>I/O控制方式<br />
+（二）I/O核心子系统</li>
+<li>I/O调度概念</li>
+<li>高速缓存与缓冲区</li>
+<li>设备分配与回收</li>
+<li>假脱机技术（SPOOLing）</li>
+<li>出错处理</li>
+</ol>
+<hr />
+<h3>Ⅳ、计算机网络</h3>
+<h4>【考查目标】</h4>
+<ol>
+<li>掌握计算机网络的基本概念、基本原理和基本方法。</li>
+<li>掌握计算机网络的体系结构和典型网络协议，了解典型网络的组成和特点，理解典型网络设备的工作原理。</li>
+<li>能够运用计算机网络的基本概念、基本原理和基本方法进行网络系统的分析、设计和应用。</li>
+</ol>
+<h4>一、计算机网络体系结构</h4>
+<p>（一）计算机网络概述</p>
+<ol>
+<li>计算机网络的概念、组成与功能</li>
+<li>计算机网络的分类</li>
+<li>计算机网络的标准化工作及相关组织<br />
+（二）计算机网络体系结构与参考模型</li>
+<li>计算机网络分层结构</li>
+<li>计算机网络协议、接口、服务等概念</li>
+<li>ISO/OSI参考模型和TCP/IP模型</li>
+</ol>
+<h4>二、物理层</h4>
+<p>（一）通信基础</p>
+<ol>
+<li>信道、信号、宽带、码元、波特、速率、信源与信宿等基本概念</li>
+<li>奈奎斯特定理与香农定理</li>
+<li>编码与调制</li>
+<li>电路交换、报文交换与分组交换</li>
+<li>数据报与虚电路<br />
+（二）传输介质</li>
+<li>双绞线、同轴电缆、光纤与无线传输介质</li>
+<li>物理层接口的特性<br />
+（三）物理层设备</li>
+<li>中继器</li>
+<li>集线器</li>
+</ol>
+<h4>三、数据链路层</h4>
+<p>（一）数据链路层的功能<br />
+（二）组帧<br />
+（三）差错控制</p>
+<ol>
+<li>检错编码</li>
+<li>纠错编码<br />
+（四）流量控制与可靠传输机制</li>
+<li>流量控制、可靠传输与滑轮窗口机制</li>
+<li>停止-等待协议</li>
+<li>后退N帧协议（GBN）</li>
+<li>选择重传协议（SR）<br />
+（五）介质访问控制</li>
+<li>信道划分介质访问控制：频分多路复用、时分多路复用、波分多路复用、码分多路复用的概念和基本原理。</li>
+<li>随机访问介质访问控制：ALOHA协议；CSMA协议；CSMA/CD协议；CSMA/CA协议。</li>
+<li>轮询访问介质访问控制：令牌传递协议<br />
+（六）局域网</li>
+<li>局域网的基本概念与体系结构</li>
+<li>以太网与IEEE 802.3</li>
+<li>IEEE 802.11</li>
+<li>令牌环网的基本原理<br />
+（七）广域网</li>
+<li>广域网的基本概念</li>
+<li>PPP协议</li>
+<li>HDLC协议<br />
+（八）数据链路层设备</li>
+<li>网桥的概念和基本原理</li>
+<li>局域网交换机及其工作原理</li>
+</ol>
+<h4>四、网络层</h4>
+<p>（一）网络层的功能</p>
+<ol>
+<li>异构网络互联</li>
+<li>路由与转发</li>
+<li>拥塞控制<br />
+（二）路由算法</li>
+<li>静态路由与动态路由</li>
+<li>距离-向量路由算法</li>
+<li>链路状态路由算法</li>
+<li>层次路由<br />
+（三）IPv4</li>
+<li>IPv4分组</li>
+<li>IPv4地址与NAT</li>
+<li>子网划分与子网掩码、CIDR</li>
+<li>ARP协议、DHCP协议与ICMP协议<br />
+（四）IPv6</li>
+<li>IPv6的主要特点</li>
+<li>IPv6地址<br />
+（五）路由协议</li>
+<li>自治系统</li>
+<li>域内路由与域间路由</li>
+<li>RIP路由协议</li>
+<li>OSPF路由协议</li>
+<li>BGP路由协议<br />
+（六）IP组播</li>
+<li>组播的概念</li>
+<li>IP组播地址<br />
+（七）移动IP</li>
+<li>移动IP的概念</li>
+<li>移动IP的通信过程<br />
+（八）网络层设备</li>
+<li>路由器的组成和功能</li>
+<li>路由表与路由转发</li>
+</ol>
+<h4>五、传输层</h4>
+<p>（一）传输层提供的服务</p>
+<ol>
+<li>传输层的功能</li>
+<li>传输层寻址与端口</li>
+<li>无连接服务与面向连接服务<br />
+（二）UDP协议</li>
+<li>UDP数据报</li>
+<li>UDP校验<br />
+（三）TCP协议</li>
+<li>TCP段</li>
+<li>TCP连接管理</li>
+<li>TCP可靠传输</li>
+<li>TCP流量控制与拥塞控制</li>
+</ol>
+<h4>六、应用层</h4>
+<p>（一）网络应用模型</p>
+<ol>
+<li>客户/服务器模型</li>
+<li>P2P模型<br />
+（二）DNS系统</li>
+<li>层次域名空间</li>
+<li>域名服务器</li>
+<li>域名解析过程<br />
+（三）FTP</li>
+<li>FTP协议的工作原理</li>
+<li>控制连接与数据连接<br />
+（四）电子邮件</li>
+<li>电子邮件系统的组成结构</li>
+<li>电子邮件格式与MIME</li>
+<li>SMTP协议与POP3协议<br />
+（五）WWW</li>
+<li>WWW的概念与组成结构</li>
+<li>HTTP协议</li>
+</ol>
+<hr />
+<h2>五、备考建议</h2>
+<ol>
+<li><strong>尽早开始，制定计划</strong>：408内容多、难度大，建议至少提前8-10个月开始准备</li>
+<li><strong>重视基础，理解为主</strong>：不要死记硬背，要深入理解原理</li>
+<li><strong>多做真题，总结规律</strong>：历年真题是最好的复习资料</li>
+<li><strong>动手编程，强化实践</strong>：数据结构部分要多写代码</li>
+<li><strong>构建知识体系</strong>：建立完整的知识框架，注意各章节之间的联系</li>
+</ol></div>
+    <div id="qrcode_area" style="margin: 0 auto; text-align: center;">
+    <hr style="width: 160px; margin: 20px auto;">
+    <div id="my-qrcode"></div>
+    <div>扫描二维码，在手机上阅读</div>
+</div>
+<style>
+    #my-qrcode img {
+        margin: 10px auto;
+    }
+</style>
+<script src="https://www.from0to1.cn/content/plugins/article_qrcode/static/qrcode.min.js"></script>
+<script>
+    // 检测屏幕宽度
+    function isMobile() {
+        return window.innerWidth <= 768;
+    }
+
+    // 显示或隐藏二维码
+    function toggleQRCode() {
+        var qrcodeDiv = document.getElementById("qrcode_area");
+        if (isMobile()) {
+            qrcodeDiv.style.display = "none"; // 在手机端隐藏二维码
+        } else {
+            qrcodeDiv.style.display = "block"; // 在非手机端显示二维码
+        }
+    }
+    
+    // 初始化页面时切换二维码显示状态
+    toggleQRCode();
+    // 监听窗口大小改变事件，动态切换二维码显示状态
+    window.addEventListener("resize", toggleQRCode);
+
+    var qrcode = new QRCode(document.getElementById("my-qrcode"), {
+        text: encodeURI("https://www.from0to1.cn/67.html"),
+        width: 200,
+        height: 200,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.H
+    });
+</script>
+    <div class="copyright-plugin" style="padding:10px; font-size:14px;">
+        版权所有：<a href="https://www.from0to1.cn/">从0至1</a><br />
+文章标题：<a href="https://www.from0to1.cn/67.html">2026年计算机考研408（22408）考试大纲完整版</a><br />
+文章链接：https://www.from0to1.cn/67.html<br />
+本站文章均为原创，未经授权请勿用于任何商业用途    </div>
+    <div class="x_nav_toc">
+    <div class="x_toc_header">
+        <span class="x_toc_title">文章目录</span>
+        <button class="x_toc_close">×</button>
+    </div>
+    <div class="x_toc_content">
+        <ul class="x_anchor-list"></ul>
+    </div>
+</div>
+<button class="x_toc_toggle">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+</button>
+
+<style type='text/css'>
+.x_nav_toc {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 280px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.x_nav_toc.active {
+    right: 0;
+    
+    
+}
+
+
+.x_toc_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.x_toc_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.x_toc_close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #777;
+    transition: color 0.2s;
+}
+
+.x_toc_close:hover {
+    color: #333;
+}
+
+.x_toc_content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px 20px;
+    padding-right: 10px;
+}
+
+.x_anchor-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 减小目录项间距 */
+.x_anchor-list li {
+    margin-bottom: 4px; /* 间距从8px减小到4px */
+}
+
+.x_anchor-list a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 6px 10px; /* 减少内边距 */
+    transition: all 0.2s;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 1.4; /* 减小行高 */
+}
+
+.x_anchor-list a:hover,
+.x_anchor-list a:focus {
+    background-color: #f8f9fa;
+    color: #0068d6;
+}
+
+
+
+.toc-number {
+    font-weight: 600;
+    margin-right: 8px;
+    color: #495057;
+    display: inline-block;
+    min-width: 25px;
+}
+
+/* 减小各级标题间距 */
+.toc-h1 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px; /* 上边距从15px减小到10px */
+    padding-left: 5px !important;
+}
+
+.toc-h2 {
+    font-size: 14px;
+    padding-left: 15px !important; /* 缩进从20px减小到15px */
+}
+
+.toc-h3 {
+    font-size: 13px;
+    padding-left: 25px !important; /* 缩进从30px减小到25px */
+}
+
+.toc-h4 {
+    font-size: 12px;
+    padding-left: 35px !important; /* 缩进从40px减小到35px */
+}
+
+/* 修改后的切换按钮样式 - 使用图标且位置下移 */
+.x_toc_toggle {
+    position: fixed;
+    bottom: 100px; /* 从30px下移至90px，避开回到顶部按钮 */
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2c9eff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 999;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.x_toc_toggle svg {
+    width: 24px;
+    height: 24px;
+    stroke: white; /* SVG图标颜色 */
+}
+
+.x_toc_toggle:hover {
+    background-color: #0081f8;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .x_nav_toc {
+        width: 280px;
+    }
+    .x_toc_toggle {
+        bottom: 100px; /* 手机端也下移位置 */
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .x_toc_toggle svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 获取所有标题元素
+    var className = ".markdown"; 
+    var selectors = [];
+    for (var i = 1; i <= 6; i++) {
+        selectors.push(className + ' h' + i);
+    }
+    var headings = document.querySelectorAll(selectors.join(', '));
+    
+    // 获取DOM元素
+    var tocContainer = document.querySelector('.x_nav_toc');
+    var toggleButton = document.querySelector('.x_toc_toggle');
+    var tocList = document.querySelector('.x_anchor-list');
+    var closeButton = document.querySelector('.x_toc_close');
+    var currentHighlight = null;
+    
+                
+    // 检测是否为移动设备
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    // 如果没有标题，隐藏所有元素
+    if (headings.length === 0) {
+        tocContainer.style.display = 'none';
+        toggleButton.style.display = 'none';
+        return;
+    }
+    
+    // 初始化层级计数器
+    var counters = [0, 0, 0, 0, 0, 0]; // h1-h6
+    var currentLevel = 0;
+    
+    // 生成带数字编号的目录
+    headings.forEach(function(heading, index) {
+        var level = parseInt(heading.tagName[1]);
+        
+        // 更新计数器
+        counters[level - 1] += 1; // 增加当前级别计数器
+        
+        // 重置更低级计数器
+        for (var i = level; i < 6; i++) {
+            counters[i] = 0;
+        }
+        
+        // 生成编号字符串（如"1.2.3"）
+        var numberParts = [];
+        for (var i = 0; i < level; i++) {
+            if (counters[i] > 0) {
+                numberParts.push(counters[i]);
+            }
+        }
+        var numberText = numberParts.join('.')+'.';
+        
+        // 创建唯一ID
+        var id = 'toc-' + numberText.replace(/\./g, '-');
+        heading.id = id;
+        
+        var listItem = document.createElement('li');
+        var anchor = document.createElement('a');
+        var numberSpan = document.createElement('span');
+        
+        numberSpan.className = 'toc-number';
+        numberSpan.textContent = numberText;
+        anchor.appendChild(numberSpan);
+        anchor.innerHTML += heading.textContent;
+        anchor.href = '#' + id;
+        anchor.classList.add('toc-h' + level);
+        
+        listItem.appendChild(anchor);
+        tocList.appendChild(listItem);
+        
+        // 添加点击事件（不关闭目录）
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            
+           
+            // 更新高亮状态
+            if (currentHighlight) {
+                currentHighlight.classList.remove('active');
+            }
+            this.classList.add('active');
+            currentHighlight = this;
+            
+            // 滚动到对应位置
+            var targetId = this.getAttribute('href').substring(1);
+            var targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                var header = document.querySelector("header");
+                var headerHeight = header ? header.offsetHeight : 0;
+                var elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                var offsetPosition = elementPosition - headerHeight - 20;
+                
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+                
+                // 滚动到目录项的可视区域
+                this.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+    
+
+          // 点击事件中
+          if (isMobile) {
+           closeToc(); // 移动端点击后关闭目录
+          }
+            
+                
+            }
+        });
+    });
+    
+    // 切换按钮点击事件
+    toggleButton.addEventListener('click', function() {
+        tocContainer.classList.add('active');
+     
+    });
+    
+    // 关闭按钮点击事件
+    closeButton.addEventListener('click', function(e) {
+        e.stopPropagation();
+        closeToc();
+    });
+    
+  
+    
+    // 滚动时更新高亮状态
+    window.addEventListener('scroll', function() {
+    
+    var fromTop = window.scrollY;
+    var header = document.querySelector("header");
+    var headerHeight = header ? header.getBoundingClientRect().height : 0; // 更精确的header高度
+    
+    
+     //console.log(headerHeight);
+    
+    
+    
+    // 精准计算标题文档位置
+    var activeSection = null;
+    headings.forEach(function(heading) {
+        var section = document.getElementById(heading.id);
+        if (!section) return;
+        
+        // 使用getBoundingClientRect获取精确位置
+        var rect = section.getBoundingClientRect();
+        var sectionTop = rect.top + fromTop; // 转换为文档顶部绝对位置
+        var sectionBottom = rect.bottom + fromTop + headerHeight;
+        
+        // 增加20px激活区域缓冲
+        if (fromTop + headerHeight + 20 >= sectionTop && fromTop < sectionBottom) {
+            activeSection = heading;
+        }
+    });
+
+
+ 
+
+    // 更新高亮状态（新增精确边界判断）
+    if (activeSection) {
+        var tocLink = tocList.querySelector('a[href="#' + activeSection.id + '"]');
+
+        if (tocLink && currentHighlight !== tocLink) {
+            if (currentHighlight) {
+            currentHighlight.blur();
+            currentHighlight.classList.remove('active');
+            }
+            
+            
+            tocLink.classList.add('active');
+           tocLink.focus();
+            currentHighlight = tocLink;
+            
+            // 平滑滚动到可视区域（改进触发条件）
+            var tocRect = tocLink.getBoundingClientRect();
+            var tocContainerRect = tocContainer.getBoundingClientRect();
+            if (tocRect.bottom > tocContainerRect.bottom || tocRect.top < tocContainerRect.top) {
+                tocLink.scrollIntoView({behavior: 'auto', block: 'nearest'});
+            }
+        }
+    }
+});
+    
+    // 关闭目录面板
+    function closeToc() {
+        tocContainer.classList.remove('active');
+      
+    }
+});
+</script></br><div class="posts_related"><h3>📚 推荐阅读</h3><ul><li><a href="https://www.from0to1.cn/68.html">2026年管理类联考（199）考试大纲完整版</a></li><li><a href="https://www.from0to1.cn/65.html">计算机网络概述：连接世界的基础设施</a></li><li><a href="https://www.from0to1.cn/64.html">区块链的产生：去中心化信任的基石</a></li><li><a href="https://www.from0to1.cn/63.html">比特币的产生：一场货币革命的起源</a></li><li><a href="https://www.from0to1.cn/62.html">人工智能（AI）完全指南：定义、原理与未来展望</a></li></ul></div></br>
+ <style>
+
+/* 添加字体图标库 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.donate-trigger i {
+    font-size: 28px;
+    color: #2196F3;
+    margin-right: 10px;
+}
+
+/* 文章底部样式 */
+.article-donate {
+    margin: 40px 0;
+    text-align: center;
+    border-top: 1px dashed #eee;
+    padding-top: 30px;
+}
+
+.donate-trigger {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+.donate-trigger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 12px rgba(33,150,243,0.15);
+    border-color: #2196F3;
+}
+
+.donate-trigger img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.donate-content {
+    display: none;
+    margin-top: 20px;
+    animation: fadeInUp 0.4s ease;
+    position: relative;
+    width: 100%;
+}
+
+.donate-content.active {
+    display: block;
+}
+
+.qrcode-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.qrcode-item {
+    text-align: center;
+}
+
+.qrcode-item img {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.qrcode-item p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #666;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .qrcode-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .qrcode-item {
+        width: 80%;
+    }
+}
+
+/* 图标样式 */
+.donate-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 999;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #2196F3 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M5 9v12H1V9h4m4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05-.24-.09-.32l-1.48-3.95a2 2 0 0 1 2.11-2.66c.86.16 1.46.96 1.46 1.87v5.73c0 1.13-.6 2.22-1.5 2.8L18 19.5V21a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-5l-2.11-1.06A2 2 0 0 1 9 13V9a2 2 0 0 1 2-2h4v2H11v4h4v2h-4v5h4v-4h2v4h-2"/></svg>') no-repeat center/50%;
+    box-shadow: 0 4px 12px rgba(33,150,243,0.25);
+    transition: all 0.3s;
+    animation: iconFloat 2s ease-in-out infinite;
+}
+
+.donate-icon:hover {
+    background-color: #1976D2;
+    transform: scale(1.1) rotate(-8deg);
+    box-shadow: 0 6px 16px rgba(25,118,210,0.3);
+    animation: none;
+}
+
+@keyframes iconFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+
+
+
+
+/* 弹出层样式 */
+.qrcode-popup {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 1000;
+    background: rgba(255,255,255,0.98);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.qrcode-popup.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.qrcode-popup::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.qrcode-content {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.qrcode-item {
+    text-align: center;
+}
+
+.qrcode-item img {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.qrcode-item p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #999;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .donate-icon {
+        bottom: 20px;
+        right: 15px;
+        width: 44px;
+        height: 44px;
+    }
+    
+    .qrcode-popup {
+        right: 10px;
+        left: 10px;
+        bottom: 80px;
+        max-width: none;
+    }
+    
+    .qrcode-content {
+        flex-direction: column;
+    }
+}
+
+
+
+</style>
+            
+      
+            
+<div class="article-donate">
+    <div class="donate-trigger">
+       
+       
+
+        <i class="fas fa-qrcode"></i>
+        <span style="color:#2196F3;font-weight:500">打赏</span>
+    </div>
+    
+    <div class="donate-content">
+        <p style="color:#666;margin-bottom:15px">如果觉得文章对您有用，请随意打赏。<br>您的支持是我们继续创作的动力！</p>
+        <div class="qrcode-content">
+            <div class="qrcode-item">
+                <img src="/content/plugins/log_posts/assets/wechat.png" alt="微信打赏">
+                <p>微信扫一扫</p>
+            </div>
+            <div class="qrcode-item">
+                <img src="/content/plugins/log_posts/assets/alipay.jpg" alt="支付宝打赏">
+                <p>支付宝扫一扫</p>
+            </div>
+        </div>
+    </div>
+</div><script>
+
+//点击显示
+function toggleArticleDonate(btn) {
+    const container = btn.closest('.article-donate');
+    const content = container.querySelector('.donate-content');
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    
+    // 点击外部关闭
+    if(content.style.display === 'block') {
+        setTimeout(() => {
+            document.addEventListener('click', function outsideClick(e) {
+                if (!container.contains(e.target)) {
+                    content.style.display = 'none';
+                    document.removeEventListener('click', outsideClick);
+                }
+            });
+        }, 10);
+    }
+}
+
+//悬停显示
+  
+    document.addEventListener('DOMContentLoaded', function() {
+    const triggers = document.querySelectorAll('.donate-trigger');
+    
+    // 通用显示/隐藏控制
+    function toggleQrcode(trigger, show) {
+        const content = trigger.nextElementSibling;
+        content.classList.toggle('active', show);
+    }
+
+    // 桌面端悬停逻辑
+    if (!isMobile()) {
+        triggers.forEach(trigger => {
+            trigger.addEventListener('mouseenter', () => toggleQrcode(trigger, true));
+            trigger.addEventListener('mouseleave', () => toggleQrcode(trigger, false));
+        });
+    }
+
+    // 移动端点击逻辑
+    if (isMobile()) {
+        triggers.forEach(trigger => {
+            let tapTimer;
+            
+            // 单击切换
+            trigger.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleQrcode(this, !this.nextElementSibling.classList.contains('active'));
+            });
+
+            // 点击外部关闭
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.article-donate')) {
+                    toggleQrcode(trigger, false);
+                }
+            });
+        });
+    }
+
+  function isMobile() {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+   }
+});
+
+
+//   悬浮函数   
+let isOpen = false;
+let lastClick = 0;
+
+function toggleQrcode() {
+    // 节流处理滚动事件
+    if(Date.now() - lastClick < 300) return;
+    lastClick = Date.now();
+    const popup = document.getElementById('qrcodePopup');
+    isOpen = !isOpen;
+    
+    if(isOpen) {
+        popup.classList.add('active');
+        document.addEventListener('click', closeOnClickOutside);
+    } else {
+        closeQrcode();
+    }
+}
+
+function closeQrcode() {
+    const popup = document.getElementById('qrcodePopup');
+    popup.classList.remove('active');
+    isOpen = false;
+    document.removeEventListener('click', closeOnClickOutside);
+}
+
+function closeOnClickOutside(e) {
+    if(!document.querySelector('.qrcode-popup').contains(e.target) && 
+       !document.querySelector('.donate-icon').contains(e.target)) {
+        closeQrcode();
+    }
+}
+
+
+</script> <iframe id="digg_content" name="digg_content" src="https://www.from0to1.cn/content/plugins/digg/digg_view.php?id=67"
+ width="100%" height="85px" scrolling="auto"  frameborder="0" allowTransparency="true" ></iframe>    <div class="favorite-container">
+            <span class="favorite-button" onclick="toggleFavorite(67)">
+        <svg id="favorite-icon" width="36" height="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.73 2 12.18 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.68-3.4 7.23-8.55 11.53L12 21.35z"/>
+        </svg>
+      </span>
+      <span id="favorite-text" onclick="toggleFavorite(67)">收藏</span>
+    </div>
+<style>
+    .favorite-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .favorite-button {
+      cursor: pointer;
+      font-size: 24px;
+      margin-right: 3px;
+      margin-top:8px;
+    }
+    
+    #favorite-text {
+      cursor: pointer;
+      font-size: 16px;
+    }
+</style>
+<script>
+var isFavorite = false;
+</script>
+<script src="https://www.from0to1.cn/content/plugins/em_like/static/like.js"></script>    <nav class="neighbor-log">            <span class="prev-log"><a href="https://www.from0to1.cn/68.html">上一帖：2026年管理类联考（199）考试大...</a></span>
+                <span class="next-log"><a href="https://www.from0to1.cn/Converse_with_AI/jsjdwlxt-cjsgjdznhb.html">下一帖：计算机的未来形态：从计算工具到智能伙...</a></span>
+    </nav>
+</article>
+<div class="container log-con">
+            <div class="comment-header">还没收到回复</div>
+            <div id="pagenavi">
+            </div>
+            <div id="comments">
+            <div class="bottom-5"></div>
+            <div class="comment-post" id="comment-post">
+                <form class="commentform" method="post" name="commentform" action="https://www.from0to1.cn/index.php?action=addcom" id="commentform">
+                    <input type="hidden" name="gid" value="67">
+                    <textarea class="form-control log_comment" name="comment" id="comment" rows="10" tabindex="4" placeholder="添加新回复" required></textarea>
+                                                                请先 <a href="./admin/index.php">登录</a> 再回复
+                                                                <!-- 验证窗口 -->
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content" style="display: table-cell;">
+                                    <div class="modal-header" style="border-bottom: 0px;">
+                                        输入验证码
+                                    </div>
+                                    <img src="https://www.from0to1.cn/include/lib/checkcode.php" id="captcha" class="captcha" /><input name="imgcode" type="text" class="captcha_input" size="5" tabindex="5" placeholder="验证码*" required />                                    <div class="modal-footer" style="border-top: 0px;">
+                                        <button type="button" class="btn" id="close-modal" data-dismiss="modal">关闭</button>
+                                        <button type="submit" class="btn" id="comment_submit2">提交</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lock-screen"></div>
+                        </div>
+                        <!-- 验证窗口(end) -->
+                                        <input type="hidden" name="pid" id="comment-pid" value="0" tabindex="1">
+                </form>
+            </div>
+        </div>
+    </div>
+<footer class="blog-footer">
+    <div class="container footinfo small">
+                    <div>
+                <div class="blog-footer-links">
+                    <strong>友情链接：</strong>
+                                            <span><a href="https://www.from0to1.cn/" title="从0至1矩阵" target="_blank">从0至1</a></span>
+                                            <span><a href="https://github.com/mtnljbydd" title="💻 个人开发者 | AI 驱动的创新实践者" target="_blank">Github</a></span>
+                                    </div>
+            </div>
+                        powered by <a href="https://www.from0to1.cn">从0至1</a>            <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var links = document.getElementsByTagName('a');
+            var siteUrl = 'https://www.from0to1.cn/';
+            var openExternal = 1;
+            var openPost = 1;
+            var customPattern = ``;
+            var addNofollow = 1;
+
+            for (var i = 0; i < links.length; i++) {
+                var link = links[i];
+                var href = link.href;
+
+                // 跳过锚点链接和JavaScript链接
+                if (!href || href.startsWith('#') || href.startsWith('javascript:') || href.startsWith('mailto:')) {
+                    continue;
+                }
+
+                // 判断是否是站外链接
+                var isExternalLink = href.indexOf('http') === 0 && href.indexOf(siteUrl) !== 0;
+                // 判断是否是文章链接
+                var isPostLink = false;
+                if (href.indexOf(siteUrl) === 0) {
+                    // 支持多种文章链接格式：
+                    // 1. http://localhost:8080/post-14.html
+                    // 2. http://localhost:8080/?post=14
+                    // 3. http://localhost:8080/post/14
+                    // 4. 域名/xxxx/数字字母下划线.html
+                    // 5. 域名/数字字母下划线.html
+                    isPostLink = href.match(/\/post-\d+\.html$/) || // post-数字.html 格式
+                        href.includes('?post=') || // ?post=数字 格式
+                        href.match(/\/post\/\d+\/?$/) || // /post/数字 格式
+                        href.match(/\/\d{4}\/\d{2}\//) || // 日期格式（保留原有支持）
+                        href.includes('/post/') || // 其他 /post/ 相关链接
+                        href.match(/\/[^/]+\/[\w\d_]+\.html$/) || // 域名/xxxx/数字字母下划线.html
+                        href.match(/\/[\w\d_]+\.html$/) && !href.match(/\/[^/]+\/[^/]+\/[\w\d_]+\.html$/); // 域名/数字字母下划线.html (排除多级路径)
+                }
+                // 判断是否匹配自定义规则
+                var isCustomLink = false;
+                if (customPattern) {
+                    // 按行分割规则，支持多行输入
+                    var patterns = customPattern.split(/\r?\n/);
+                    for (var j = 0; j < patterns.length; j++) {
+                        var pattern = patterns[j].trim();
+                        if (pattern && matchWildcard(href, pattern)) {
+                            isCustomLink = true;
+                            break;
+                        }
+                    }
+                }
+
+                // 先重置所有链接的target属性，然后根据设置重新应用
+                var shouldOpenInNewTab = false;
+
+                // 1. 检查站外链接
+                if (isExternalLink && openExternal) {
+                    shouldOpenInNewTab = true;
+                }
+
+                // 2. 检查文章链接
+                if (isPostLink && openPost) {
+                    shouldOpenInNewTab = true;
+                }
+
+                // 3. 检查自定义链接
+                if (isCustomLink && customPattern) {
+                    shouldOpenInNewTab = true;
+                }
+
+                // 应用或移除新窗口打开属性
+                if (shouldOpenInNewTab) {
+                    link.target = '_blank';
+                    // 根据设置决定rel属性的值
+                    if (isExternalLink && addNofollow) {
+                        link.rel = 'noopener nofollow';
+                    } else {
+                        link.rel = 'noopener';
+                    }
+                } else {
+                    // 移除target属性，但保留nofollow（如果是外链且开启了nofollow）
+                    link.removeAttribute('target');
+                    if (isExternalLink && addNofollow) {
+                        link.rel = 'nofollow';
+                    } else {
+                        link.removeAttribute('rel');
+                    }
+                }
+            }
+        });
+
+        // 通配符匹配函数
+        function matchWildcard(str, pattern) {
+            // 将通配符模式转换为正则表达式
+            var regexPattern = pattern
+                .replace(/[.+^${}()|[\]\\]/g, '\\$&') // 转义特殊字符
+                .replace(/\*/g, '.*') // 将 * 替换为 .*
+                .replace(/\?/g, '.'); // 将 ? 替换为 .
+
+            var regex = new RegExp('^' + regexPattern + '$', 'i');
+            return regex.test(str);
+        }
+    </script>
+    <style>
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        #website-runtime {
+            font-size: 14px;
+            text-align: center;
+            background: linear-gradient(90deg,
+                    #ff0000,
+                    #ff8000,
+                    #ffff00,
+                    #00ff00,
+                    #00ffff,
+                    #0000ff,
+                    #8000ff,
+                    #ff0000);
+            background-size: 300% 300%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 6s infinite alternate linear;
+        }
+
+            </style>
+    <div style="text-align: center; margin: 10px 0;">
+        <span id="website-runtime"></span>
+    </div>
+    <script>
+        function calculateRuntime() {
+            var start = new Date("2023-03-01");
+            var now = new Date();
+            var diff = now - start;
+            var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            document.getElementById("website-runtime").innerHTML =
+                "网站已幸存 " + days + " 天 " + hours + " 小时 " +
+                minutes + " 分 " + seconds + " 秒";
+        }
+        calculateRuntime();
+        setInterval(calculateRuntime, 1000);
+    </script>
+    </div>
+</footer>
+<script src="https://www.from0to1.cn/content/templates/minebbs/js/common_tpl.js?t=1781589192"></script>
+<script src="https://www.from0to1.cn/content/templates/minebbs/js/zoom.js?t=1781589192"></script>
+</body>
+</html>
