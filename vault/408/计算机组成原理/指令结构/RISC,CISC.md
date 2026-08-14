@@ -20,7 +20,7 @@ tags: [408, 计组, 指令结构, imported-from-obsidian]
 - 代表：ARM（手机、Apple Silicon 笔记本等）
 - 访存通常**只能**通过 load / store；运算在寄存器间完成
 
-![课堂截图：RISC/CISC 对比](/vault/408/%E8%AE%A1%E7%BB%84/%E6%8C%87%E4%BB%A4%E7%BB%93%E6%9E%84/%E9%99%84%E4%BB%B6/Screenshot%202026-07-05%20at%2019-53-14.png)
+![课堂截图：RISC/CISC 对比](附件/Screenshot%202026-07-05%20at%2019-53-14.png)
 
 ## 补充对照
 
