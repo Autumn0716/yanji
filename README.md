@@ -1,4 +1,4 @@
-
+  >It's mark of an educated mind to be able to entertain a thought without accepting it. ----Aristotle
 
 在英语的学习过程中,我使用了[DeepTutor](https://github.com/HKUDS/DeepTutor)作为我的翻译助手(当然了,也可以使用[剑桥词典](https://dictionary.cambridge.org/zhs)),而且在其他领域也是一个很好的助手.以下是一些使用示例:
 
